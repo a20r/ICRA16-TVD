@@ -1,4 +1,2 @@
-SSCI14-dCRoPS
-=============
-
-Materials for the SSCI submission about swarm path planning using probabilistic roadmaps and potential fields
+# ICRA16-TVD
+Paper for ICRA 2016 about the TVD project
