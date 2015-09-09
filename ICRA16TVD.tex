@@ -115,7 +115,10 @@ algorithm using an Extended Voronoi Graph (EVG) that can show topologically
 distinct paths in free space~\cite{evg}. However, the work lacks a concise
 graphical structure.  Instead of providing a graph representing the
 connectivity, the work has provided a list of points which lie on the thinned
-representation of free space. Portugal and Rocha were able to use the work done
+representation of free space. Similarly, work has been done using morphology
+operations to produce a thin skeleton of the original
+volume~\cite{graphicsGems,skeletonize3d} but do not provide information about
+the connectivity of regions. Portugal and Rocha were able to use the work done
 by Beenson et al to determine the location of critical points that can be used
 as nodes in a graph~\cite{david}, however this work did not provide a means of
 determining edges between the discovered nodes.
@@ -305,8 +308,8 @@ first graphical representation of the environment.
     \includegraphics[width=0.32\linewidth]{figs/strongly_connected_david}
 
     \label{fig:david}
-    \caption{The topological graph extracted using the algorithm shown in
-        \cite{david}}
+    \caption{The topological graph extracted using the algorithm by Portugal
+        and Rocha shown in \cite{david}}
 \end{figure*}
 
 \section{Experimental Results}
